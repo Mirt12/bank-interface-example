@@ -20,5 +20,11 @@ class UseAccount {
         double yourInterestAmount = yourAccount.getInterest(yourInterestRate);
         out.print(yourInterestAmount);
         out.println(" income ");
+        //code for family members refactoring:
+        myAccount.familyMembers = 4;
+        yourAccount.familyMembers = 5;
+        out.println(myAccount.familyMembers);
+        out.println(yourAccount.familyMembers);
+
     }
 }
